@@ -14,7 +14,7 @@ public final class ModItems3 {
 	public static Item fp;
 
 	public static void createItems() {
-	       GameRegistry.registerItem(443, "elytra", (new ItemElytra()).setUnlocalizedName("elytra"));
+	       GameRegistry.registerItem((new ItemElytra()).setUnlocalizedName("elytra"), "elytra");
 
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems3.fp),
 				new Object[] { ModItems.Magic_Powder, Items.glowstone_dust, new ItemStack(Items.dye, 1, 4) });
