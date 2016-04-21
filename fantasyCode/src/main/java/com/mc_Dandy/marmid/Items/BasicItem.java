@@ -11,4 +11,6 @@ public class BasicItem extends Item {
 		this.setUnlocalizedName(unlocalizedName);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
 	}
+
+
 }
