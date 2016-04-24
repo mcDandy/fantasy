@@ -11,10 +11,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public final class ModItems {
 
 	public static Item BlueGlowstoneDust;
-	public static Item Magic_Powder;
+static CreativeTabs tabFantasy = new FantasyTab(CreativeTabs.getNextID(), "tabFantasy");
+public static Item Magic_Powder;
 
 	public static void createItems() {
-		CreativeTabs tabFantasy = new FantasyTab(CreativeTabs.getNextID(), "tabFantasy");
+		
 
 		
 		GameRegistry.registerItem(BlueGlowstoneDust = new BlueDust("BlueGlowstoneDust"), "BlueGlostoneDust");
