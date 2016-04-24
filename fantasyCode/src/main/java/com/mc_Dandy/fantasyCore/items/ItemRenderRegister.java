@@ -19,6 +19,6 @@ public final class ItemRenderRegister {
 	//public static String modid=fantasy.MODID;
 
 	public static void reg(Item item, String modid) {
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation( item.getUnlocalizedName(), "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(modid + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
 }
