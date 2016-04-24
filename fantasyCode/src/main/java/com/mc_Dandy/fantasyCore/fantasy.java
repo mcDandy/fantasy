@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.mc_Dandy.fantasyCore.blocks.ModBlocks;
+import com.mc_Dandy.fantasyCore.items.ItemRenderRegister;
 import com.mc_Dandy.fantasyCore.items.ModItems;
 
 import net.minecraft.item.Item;
@@ -18,7 +19,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = fantasy.MODID, name = fantasy.MODNAME, version = fantasy.VERSION)
 public class fantasy {
 
-	public static final String MODID = "fantasy";
+	public static final String MODID = "Fantasy";
 	public static final String MODNAME = "Fantasy mod";
 	public static final String VERSION = "1.0.0";
 
@@ -36,7 +37,7 @@ public class fantasy {
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
 
-		//ItemRenderRegister.registerItemRenderer();
+		ItemRenderRegister.registerItemRenderer();
 	}
 
 	@EventHandler

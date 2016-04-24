@@ -1,51 +1,38 @@
-[17:15:11] [Client thread/INFO]: Setting user: Player669
-[17:15:20] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:15:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
-[17:15:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:15:47] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[17:15:47] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:15:53] [Thread-9/INFO]: OpenAL initialized.
-[17:15:53] [Sound Library Loader/INFO]: Sound engine started
-[17:16:20] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:16:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
-[17:16:24] [Client thread/INFO]: SoundSystem shutting down...
-[17:16:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:16:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:16:24] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[17:16:24] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:16:24] [Thread-11/INFO]: OpenAL initialized.
-[17:16:24] [Sound Library Loader/INFO]: Sound engine started
-[17:16:29] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:18:23] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[17:18:23] [Server thread/INFO]: Generating keypair
-[17:18:25] [Server thread/INFO]: Preparing start region for level 0
-[17:18:26] [Server thread/INFO]: Preparing spawn area: 0%
-[17:18:28] [Server thread/INFO]: Preparing spawn area: 9%
-[17:18:30] [Server thread/INFO]: Preparing spawn area: 23%
-[17:18:31] [Server thread/INFO]: Preparing spawn area: 72%
-[17:18:33] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:18:40] [Server thread/INFO]: Player669[local:E:3f129b9a] logged in with entity id 165 at (325.5, 8.62237396233469, -665.5)
-[17:18:40] [Server thread/INFO]: Player669 joined the game
-[17:18:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2796ms behind, skipping 55 tick(s)
-[17:18:55] [Server thread/INFO]: Player669 has just earned the achievement [Taking Inventory]
-[17:18:55] [Client thread/INFO]: [CHAT] Player669 has just earned the achievement [Taking Inventory]
-[17:21:30] [Server thread/INFO]: Saving and pausing game...
-[17:21:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:21:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:21:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:21:38] [Server thread/INFO]: Changing difficulty to PEACEFUL, from NORMAL
-[17:22:40] [Server thread/INFO]: <Player669> potato se potejloval nebo potentontoval potato je plýna
-[17:22:40] [Client thread/INFO]: [CHAT] <Player669> potato se potejloval nebo potentontoval potato je plýna
-[17:23:42] [Server thread/INFO]: Saving and pausing game...
-[17:23:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:23:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:23:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:23:45] [Server thread/INFO]: Stopping server
-[17:23:45] [Server thread/INFO]: Saving players
-[17:23:45] [Server thread/INFO]: Saving worlds
-[17:23:45] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:23:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:23:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:23:48] [Client thread/INFO]: Stopping!
-[17:23:48] [Client thread/INFO]: SoundSystem shutting down...
-[17:23:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:00:29] [Client thread/INFO]: Setting user: Player270
+[12:00:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:00:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
+[12:00:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:00:46] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[12:00:46] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:00:47] [Thread-9/INFO]: OpenAL initialized.
+[12:00:47] [Sound Library Loader/INFO]: Sound engine started
+[12:01:02] [Client thread/INFO]: Created: 16x16 textures-atlas
+[12:01:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
+[12:01:04] [Client thread/INFO]: SoundSystem shutting down...
+[12:01:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:01:04] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:01:04] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[12:01:04] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:01:04] [Thread-11/INFO]: OpenAL initialized.
+[12:01:04] [Sound Library Loader/INFO]: Sound engine started
+[12:01:08] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:01:21] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[12:01:21] [Server thread/INFO]: Generating keypair
+[12:01:22] [Server thread/INFO]: Preparing start region for level 0
+[12:01:23] [Server thread/INFO]: Preparing spawn area: 18%
+[12:01:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:01:27] [Server thread/INFO]: Player270[local:E:a22c39d4] logged in with entity id 98 at (335.3665802992439, 11.48888233960331, -780.8329051930549)
+[12:01:27] [Server thread/INFO]: Player270 joined the game
+[12:01:31] [Server thread/INFO]: Player270 has just earned the achievement [Taking Inventory]
+[12:01:31] [Client thread/INFO]: [CHAT] Player270 has just earned the achievement [Taking Inventory]
+[12:01:59] [Client thread/INFO]: Stopping!
+[12:01:59] [Client thread/INFO]: SoundSystem shutting down...
+[12:01:59] [Server thread/INFO]: Stopping server
+[12:01:59] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:01:59] [Server thread/INFO]: Saving players
+[12:01:59] [Server thread/INFO]: Saving worlds
+[12:01:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:01:59] [Client Shutdown Thread/INFO]: Stopping server
+[12:01:59] [Client Shutdown Thread/INFO]: Saving players
+[12:01:59] [Client Shutdown Thread/INFO]: Saving worlds
+[12:01:59] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld

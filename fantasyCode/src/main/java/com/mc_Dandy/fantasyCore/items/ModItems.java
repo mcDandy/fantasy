@@ -1,5 +1,8 @@
 package com.mc_Dandy.fantasyCore.items;
 
+import com.mc_Dandy.fantasyCore.FantasyTab;
+
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -11,6 +14,9 @@ public final class ModItems {
 	public static Item Magic_Powder;
 
 	public static void createItems() {
+		CreativeTabs tabFantasy = new FantasyTab(CreativeTabs.getNextID(), "tabFantasy");
+
+		
 		GameRegistry.registerItem(BlueGlowstoneDust = new BlueDust("BlueGlowstoneDust"), "BlueGlostoneDust");
 		GameRegistry.registerItem(Magic_Powder = new MPowder("Magic_Powder"), "Magic_Powder");
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.BlueGlowstoneDust),
