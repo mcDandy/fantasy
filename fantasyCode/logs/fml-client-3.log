@@ -148,7 +148,7 @@ Details:
 [17:15:34] [Client thread/TRACE] [FML/]: Recursing into package com.mc_Dandy
 [17:15:35] [Client thread/TRACE] [FML/]: Recursing into package com.mc_Dandy.fantasyCore
 [17:15:35] [Client thread/TRACE] [FML/]: Recursing into package com.mc_Dandy.fantasyCore.blocks
-[17:15:35] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mc_Dandy.fantasyCore.fantasy) - loading
+[17:15:35] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.mc_Dandy.fantasyCore.Fantasy) - loading
 [17:15:35] [Client thread/TRACE] [fantasy/]: Parsed dependency info : [] [] []
 [17:15:35] [Client thread/TRACE] [FML/]: Recursing into package com.mc_Dandy.fantasyCore.items
 [17:15:35] [Client thread/TRACE] [FML/]: Recursing into package com.mc_Dandy.fantasyCore.potions
