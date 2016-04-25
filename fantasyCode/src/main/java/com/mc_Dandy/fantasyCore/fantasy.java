@@ -1,7 +1,6 @@
 package com.mc_Dandy.fantasyCore;
 
 import com.mc_Dandy.fantasyCore.blocks.ModBlocks;
-import com.mc_Dandy.fantasyCore.items.ItemRenderRegister;
 import com.mc_Dandy.fantasyCore.items.ModItems;
 
 import net.minecraftforge.fml.common.Mod;
