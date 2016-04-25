@@ -1,21 +1,21 @@
-[19:10:52] [Client thread/INFO]: Setting user: Player450
-[19:11:01] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:11:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
-[19:11:15] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:11:15] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[19:11:15] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:11:16] [Thread-9/INFO]: OpenAL initialized.
-[19:11:16] [Sound Library Loader/INFO]: Sound engine started
-[19:11:22] [Client thread/INFO]: Created: 16x16 textures-atlas
-[19:11:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
-[19:11:26] [Client thread/INFO]: SoundSystem shutting down...
-[19:11:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[19:11:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:11:26] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[19:11:26] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:11:26] [Thread-11/INFO]: OpenAL initialized.
-[19:11:26] [Sound Library Loader/INFO]: Sound engine started
-[19:11:29] [Client thread/INFO]: Created: 512x512 textures-atlas
-[19:11:51] [Client thread/INFO]: Stopping!
-[19:11:51] [Client thread/INFO]: SoundSystem shutting down...
-[19:11:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:00:37] [Client thread/INFO]: Setting user: Player485
+[12:00:43] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:00:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
+[12:00:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:00:50] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[12:00:50] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:00:51] [Thread-9/INFO]: OpenAL initialized.
+[12:00:51] [Sound Library Loader/INFO]: Sound engine started
+[12:00:59] [Client thread/INFO]: Created: 16x16 textures-atlas
+[12:01:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
+[12:01:02] [Client thread/INFO]: SoundSystem shutting down...
+[12:01:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:01:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:01:03] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[12:01:03] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:01:03] [Thread-11/INFO]: OpenAL initialized.
+[12:01:03] [Sound Library Loader/INFO]: Sound engine started
+[12:01:09] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:01:11] [Client thread/INFO]: Stopping!
+[12:01:11] [Client thread/INFO]: SoundSystem shutting down...
+[12:01:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

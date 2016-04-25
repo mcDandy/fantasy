@@ -1,7 +1,8 @@
 package com.mc_Dandy.marmid.Items;
 
-import com.mc_Dandy.fantasyCore.Fantasy;
+
 import com.mc_Dandy.fantasyCore.items.ModItems;
+import com.mc_Dandy.marmid.Main.morpan;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -13,7 +14,7 @@ public final class ItemRenderRegister {
 		reg(ModItems.BlueGlowstoneDust);
 	}
 
-	public static String modid = Fantasy.MODID;
+	public static String modid = morpan.MODID;
 
 	public static void reg(Item item) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0,
