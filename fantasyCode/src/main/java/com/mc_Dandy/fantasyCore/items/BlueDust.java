@@ -8,6 +8,7 @@ public class BlueDust extends Item {
 		super();
 		//CreativeTabs tabFantasy = new FantasyTab(CreativeTabs.getNextID(), "tabFantasy");
 		this.setUnlocalizedName("BlueGlowstoneDust");
+		
 		this.setCreativeTab(ModItems.tabFantasy);
 		//BlueDust.registerItems();
 	}
