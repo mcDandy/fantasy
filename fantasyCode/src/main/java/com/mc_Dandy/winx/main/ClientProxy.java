@@ -1,5 +1,7 @@
 package com.mc_Dandy.winx.main;
 
+import com.mc_Dandy.winx.items.ModItems3;
+
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -11,7 +13,7 @@ public class ClientProxy extends CommonProxy {
 	@Override
 	public void preInit(FMLPreInitializationEvent e) {
 		super.preInit(e);
-	}
+	ModItems3.createItems();}
 
 	@Override
 	public void init(FMLInitializationEvent e) {
