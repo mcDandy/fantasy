@@ -3,7 +3,7 @@ package com.mc_Dandy.marmid.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public final class ModItems {
+public final class ModItems2 {
 
 	public static Item lvlp;
 

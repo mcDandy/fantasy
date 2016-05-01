@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import com.mc_Dandy.marmid.Items.ModItems;
+import com.mc_Dandy.marmid.Items.ModItems2;
 
 public class CommonProxy {
 
@@ -17,7 +17,7 @@ public class CommonProxy {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		proxy.preInit(e);
-		ModItems.createItems();
+		ModItems2.createItems();
 		ModBlocks.createBlocks();
 	}
 
