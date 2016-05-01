@@ -15,8 +15,7 @@ public class CommonProxy {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		proxy.preInit(e);
-		ModItems3.createItems();
-		//ModBlocks.createBlocks();
+
 	}
 
 	@EventHandler

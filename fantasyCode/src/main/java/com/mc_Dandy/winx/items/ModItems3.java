@@ -15,7 +15,8 @@ public final class ModItems3 {
 
 	public static Item FiaryDust;
  public static CreativeTabs tabWinx = new tabWinx(CreativeTabs.getNextID(), "tabWinx");;
-	public static void createItems() {
+	
+ public static void createItems() {
 	       GameRegistry.registerItem(FiaryDust = new FiaryPowder("FiaryDust"), "FiaryDust");
 
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems3.FiaryDust,10),

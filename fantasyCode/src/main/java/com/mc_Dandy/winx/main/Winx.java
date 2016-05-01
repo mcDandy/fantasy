@@ -1,5 +1,7 @@
 package com.mc_Dandy.winx.main;
 
+import com.mc_Dandy.winx.items.ModItems3;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -22,7 +24,8 @@ public class Winx {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
-
+		ModItems3.createItems();
+		//ModBlocks.createBlocks();
 	}
 
 	@EventHandler
