@@ -15,13 +15,6 @@ public class CommonProxy {
 	public static CommonProxy proxy;
 
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent e) {
-		proxy.preInit(e);
-		ModItems2.createItems();
-		ModBlocks.createBlocks();
-	}
-
-	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		proxy.init(e);
 		MinecraftForge.EVENT_BUS.register(new SeaWoman());
@@ -30,5 +23,12 @@ public class CommonProxy {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent e) {
 		proxy.postInit(e);
+	}
+
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent e) {
+		proxy.preInit(e);
+		ModItems2.createItems();
+		ModBlocks.createBlocks();
 	}
 }

@@ -9,11 +9,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModBlocks {
 	public static Block blueGlowstone;
-	
-    public static void createBlocks() {
-	GameRegistry.registerBlock(blueGlowstone = new BlueGlowstone("BlueGlowstone", Material.clay) , "BlueGlowstone");
 
-GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.blueGlowstone), new Object[] {"##", "##", '#', ModItems.BlueGlowstoneDust});
+	public static void createBlocks() {
+		GameRegistry.registerBlock(blueGlowstone = new BlueGlowstone("BlueGlowstone", Material.clay), "BlueGlowstone");
 
-    }
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.blueGlowstone),
+				new Object[] { "##", "##", '#', ModItems.BlueGlowstoneDust });
+
+	}
 }

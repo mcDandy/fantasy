@@ -12,5 +12,4 @@ public class BasicItem extends Item {
 		this.setCreativeTab(CreativeTabs.tabMaterials);
 	}
 
-
 }

@@ -11,19 +11,14 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = morpan.MODID, name = morpan.MODNAME, version = morpan.VERSION)
 public class morpan {
 
+	@Instance(value = morpan.MODID)
+	public static morpan instance;
 	public static final String MODID = "morpan";
 	public static final String MODNAME = "Fantasy mod - marmid extension";
-	public static final String VERSION = "0.1.0";
 
-	@Instance(value=morpan.MODID)
-	public static morpan instance;
 	@SidedProxy(clientSide = "com.mc_Dandy.marmid.Main.ClientProxy", serverSide = "com.mc_Dandy.marmid.Main.ServerProxy")
 	public static CommonProxy proxy;
-
-	@EventHandler
-	public void preInit(FMLPreInitializationEvent e) {
-
-	}
+	public static final String VERSION = "0.1.0";
 
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
@@ -33,6 +28,11 @@ public class morpan {
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent e) {
+
+	}
+
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent e) {
 
 	}
 }

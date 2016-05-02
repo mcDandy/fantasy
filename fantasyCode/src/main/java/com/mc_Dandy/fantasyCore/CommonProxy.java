@@ -13,15 +13,6 @@ public class CommonProxy {
 	public static CommonProxy proxy;
 
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent e) {
-		proxy.preInit(e);
-		
-		ModItems.createItems();
-		ModBlocks.createBlocks();
-	
-	}
-
-	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		proxy.init(e);
 	}
@@ -29,6 +20,15 @@ public class CommonProxy {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent e) {
 		proxy.postInit(e);
-		
+
+	}
+
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent e) {
+		proxy.preInit(e);
+
+		ModItems.createItems();
+		ModBlocks.createBlocks();
+
 	}
 }

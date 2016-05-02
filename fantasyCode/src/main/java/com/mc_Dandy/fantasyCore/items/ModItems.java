@@ -11,17 +11,17 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public final class ModItems {
 
 	public static Item BlueGlowstoneDust;
-public static CreativeTabs tabFantasy = new FantasyTab(CreativeTabs.getNextID(), "tabFantasy");
-public static Item Magic_Powder;
+	public static Item Magic_Powder;
+	public static CreativeTabs tabFantasy = new FantasyTab(CreativeTabs.getNextID(), "tabFantasy");
 
 	public static void createItems() {
-		
 
-		
 		GameRegistry.registerItem(BlueGlowstoneDust = new BlueDust("BlueGlowstoneDust"), "BlueGlostoneDust");
 		GameRegistry.registerItem(Magic_Powder = new MPowder("Magic_Powder"), "Magic_Powder");
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.BlueGlowstoneDust),
 				new Object[] { Items.redstone, Items.glowstone_dust, new ItemStack(Items.dye, 1, 4) });
 
-	GameRegistry.addShapelessRecipe(new ItemStack (ModItems.Magic_Powder,6), new Object[] { ModItems.BlueGlowstoneDust, Items.diamond});}
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Magic_Powder, 6),
+				new Object[] { ModItems.BlueGlowstoneDust, Items.diamond });
+	}
 }

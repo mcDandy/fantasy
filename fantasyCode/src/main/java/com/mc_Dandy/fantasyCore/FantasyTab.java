@@ -5,12 +5,10 @@ import com.mc_Dandy.fantasyCore.items.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public final class FantasyTab extends CreativeTabs
-{
-    public FantasyTab(int par1, String par2Str)
-    {
-        super(par1, par2Str);
-    }
+public final class FantasyTab extends CreativeTabs {
+	public FantasyTab(int par1, String par2Str) {
+		super(par1, par2Str);
+	}
 
 	@Override
 	public Item getTabIconItem() {
@@ -18,8 +16,6 @@ public final class FantasyTab extends CreativeTabs
 		return ModItems.BlueGlowstoneDust;
 	}
 
-	//@Override
-	
-	}
+	// @Override
 
-
+}
