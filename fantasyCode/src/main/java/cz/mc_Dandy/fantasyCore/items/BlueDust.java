@@ -1,4 +1,4 @@
-package com.mc_Dandy.fantasyCore.items;
+package cz.mc_Dandy.fantasyCore.items;
 
 import net.minecraft.item.Item;
 

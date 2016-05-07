@@ -1,4 +1,4 @@
-package com.mc_Dandy.winx.main;
+package cz.mc_Dandy.winx.main;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

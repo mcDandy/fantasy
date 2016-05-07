@@ -1,6 +1,6 @@
-package com.mc_Dandy.fantasyCore;
+package cz.mc_Dandy.fantasyCore;
 
-import com.mc_Dandy.fantasyCore.items.ModItems;
+import cz.mc_Dandy.fantasyCore.items.ModItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

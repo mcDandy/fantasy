@@ -1,6 +1,6 @@
-package com.mc_Dandy.fantasyCore.items;
+package cz.mc_Dandy.fantasyCore.items;
 
-import com.mc_Dandy.fantasyCore.fantasy;
+import cz.mc_Dandy.fantasyCore.fantasy;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.RenderItem;

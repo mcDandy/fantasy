@@ -1,7 +1,7 @@
-package com.mc_Dandy.marmid.Items;
+package cz.mc_Dandy.marmid.Items;
 
-import com.mc_Dandy.fantasyCore.items.ModItems;
-import com.mc_Dandy.marmid.Main.morpan;
+import cz.mc_Dandy.fantasyCore.items.ModItems;
+import cz.mc_Dandy.marmid.Main.morpan;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;

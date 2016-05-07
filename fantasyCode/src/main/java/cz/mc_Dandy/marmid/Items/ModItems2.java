@@ -1,4 +1,4 @@
-package com.mc_Dandy.marmid.Items;
+package cz.mc_Dandy.marmid.Items;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;

@@ -1,8 +1,8 @@
-package com.mc_Dandy.fantasyCore;
+package cz.mc_Dandy.fantasyCore;
 
-import com.mc_Dandy.fantasyCore.blocks.ModBlocks;
-import com.mc_Dandy.fantasyCore.items.ItemRenderRegister;
-import com.mc_Dandy.fantasyCore.items.ModItems;
+import cz.mc_Dandy.fantasyCore.blocks.ModBlocks;
+import cz.mc_Dandy.fantasyCore.items.ItemRenderRegister;
+import cz.mc_Dandy.fantasyCore.items.ModItems;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -20,7 +20,7 @@ public class fantasy {
 	public static final String MODID = "fantasy";
 	public static final String MODNAME = "Fantasy mod";
 
-	@SidedProxy(clientSide = "com.mc_Dandy.fantasyCore.ClientProxy", serverSide = "com.mc_Dandy.fantasyCore.ServerProxy")
+	@SidedProxy(clientSide = "cz.mc_Dandy.fantasyCore.ClientProxy", serverSide = "cz.mc_Dandy.fantasyCore.ServerProxy")
 	public static CommonProxy proxy;
 	public static final String VERSION = "1.0.0";
 

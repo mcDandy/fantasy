@@ -1,4 +1,4 @@
-package com.mc_Dandy.winx.items;
+package cz.mc_Dandy.winx.items;
 
 import net.minecraft.item.Item;
 

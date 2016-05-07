@@ -1,6 +1,6 @@
-package com.mc_Dandy.winx.main;
+package cz.mc_Dandy.winx.main;
 
-import com.mc_Dandy.winx.items.ModItems3;
+import cz.mc_Dandy.winx.items.ModItems3;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;

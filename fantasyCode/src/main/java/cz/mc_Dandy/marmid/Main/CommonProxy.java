@@ -1,14 +1,14 @@
-package com.mc_Dandy.marmid.Main;
+package cz.mc_Dandy.marmid.Main;
 
-import com.mc_Dandy.marmid.blocks.ModBlocks;
-import com.mc_Dandy.marmid.player.SeaWoman;
+import cz.mc_Dandy.marmid.blocks.ModBlocks;
+import cz.mc_Dandy.marmid.player.SeaWoman;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import com.mc_Dandy.marmid.Items.ModItems2;
+import cz.mc_Dandy.marmid.Items.ModItems2;
 
 public class CommonProxy {
 

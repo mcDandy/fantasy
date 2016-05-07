@@ -1,6 +1,6 @@
-package com.mc_Dandy.fantasyCore.blocks;
+package cz.mc_Dandy.fantasyCore.blocks;
 
-import com.mc_Dandy.fantasyCore.items.ModItems;
+import cz.mc_Dandy.fantasyCore.items.ModItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

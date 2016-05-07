@@ -1,4 +1,4 @@
-package com.mc_Dandy.marmid.player;
+package z.mc_Dandy.marmid.player;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
@@ -15,7 +15,7 @@ public class SeaWoman {
 		if (player.isInWater()) {
 
 			// http://minecraft.gamepedia.com/Status_effect
-			if (compound.getInteger("level") > 0) // is marmid?
+			if (compound.getInteger("postava") == 1) // is marmid?
 			{
 				tick++;
 

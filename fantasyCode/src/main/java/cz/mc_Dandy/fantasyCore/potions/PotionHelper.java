@@ -1,4 +1,4 @@
-package com.mc_Dandy.fantasyCore.potions;
+package cz.mc_Dandy.fantasyCore.potions;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.potion.Potion;

@@ -1,4 +1,4 @@
-package com.mc_Dandy.marmid.Main;
+package cz.mc_Dandy.marmid.Main;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

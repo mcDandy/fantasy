@@ -1,4 +1,4 @@
-package com.mc_Dandy.fantasyCore;
+package cz.mc_Dandy.fantasyCore;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
