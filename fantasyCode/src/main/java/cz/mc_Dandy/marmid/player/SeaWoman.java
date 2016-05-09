@@ -1,4 +1,4 @@
-package z.mc_Dandy.marmid.player;
+package cz.mc_Dandy.marmid.player;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;

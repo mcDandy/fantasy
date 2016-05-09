@@ -16,7 +16,7 @@ public class morpan {
 	public static final String MODID = "morpan";
 	public static final String MODNAME = "Fantasy mod - marmid extension";
 
-	@SidedProxy(clientSide = "com.mc_Dandy.marmid.Main.ClientProxy", serverSide = "com.mc_Dandy.marmid.Main.ServerProxy")
+	@SidedProxy(clientSide = "cz.mc_Dandy.marmid.Main.ClientProxy", serverSide = "cz.mc_Dandy.marmid.Main.ServerProxy")
 	public static CommonProxy proxy;
 	public static final String VERSION = "0.1.0";
 
