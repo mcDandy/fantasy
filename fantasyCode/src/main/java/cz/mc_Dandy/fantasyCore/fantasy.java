@@ -1,9 +1,10 @@
 package cz.mc_Dandy.fantasyCore;
 
+import cz.mc_Dandy.fantasyCore.abilities.flying;
 import cz.mc_Dandy.fantasyCore.blocks.ModBlocks;
 import cz.mc_Dandy.fantasyCore.items.ItemRenderRegister;
 import cz.mc_Dandy.fantasyCore.items.ModItems;
-
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -39,6 +40,7 @@ public class fantasy {
 	public void preInit(FMLPreInitializationEvent e) {
 		ModItems.createItems();
 		ModBlocks.createBlocks();
+		MinecraftForge.EVENT_BUS.register(new flying()); 
 
 	}
 }

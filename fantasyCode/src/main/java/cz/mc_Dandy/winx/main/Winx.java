@@ -1,7 +1,8 @@
 package cz.mc_Dandy.winx.main;
 
+import cz.mc_Dandy.winx.items.FiaryPowder;
 import cz.mc_Dandy.winx.items.ModItems3;
-
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -37,5 +38,6 @@ public class Winx {
 	public void preInit(FMLPreInitializationEvent e) {
 		ModItems3.createItems();
 		// ModBlocks.createBlocks();
+		MinecraftForge.EVENT_BUS.register(new FiaryPowder(null)); 
 	}
 }
