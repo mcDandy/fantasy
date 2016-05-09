@@ -5,7 +5,7 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 
 public class PotionHelper {
-	public void Potions(EntityPlayer player, Potion potion, int duration, int amplifier, boolean from_beacon,
+	public static void Potions(EntityPlayer player, Potion potion, int duration, int amplifier, boolean from_beacon,
 			boolean particles) {
 		// Always effect for 8 seconds, then refresh
 

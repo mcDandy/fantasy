@@ -1,7 +1,9 @@
 package cz.mc_Dandy.marmid.player;
 
+import cz.mc_Dandy.fantasyCore.potions.PotionHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
@@ -20,9 +22,11 @@ public class SeaWoman {
 				tick++;
 
 				if (tick == (20 * 5)) {
-					// ID, amplifier, duration, ambient, particles
-					player.addPotionEffect(new PotionEffect(13, 0, 20, true, false));
-					player.addPotionEffect(new PotionEffect(16, 0, 240, true, false));
+					// ID, amplifier, duration, visible, particles
+					//player.addPotionEffect(new PotionEffect(13, 0, 20, true, false));
+					PotionHelper.Potions(player, Potion.nightVision,8,1,false, false);
+					PotionHelper.Potions(player, Potion.waterBreathing,1,1, false, false);
+					//player.addPotionEffect(new PotionEffect(16, 0, 240, true, false));
 
 					// Potions(player, Potion.nightVision, 20/*sec*/, 0, true,
 					// false);
