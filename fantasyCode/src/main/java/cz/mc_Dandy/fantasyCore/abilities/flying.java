@@ -11,7 +11,7 @@ public class flying {
 		CanFly(null);
 	}
 	public void CanFly(NBTTagCompound nbt){
-		if (nbt.getInteger("postava")==2) {allowFlight=true;} else {allowCreativeFlight=true;};
+		if (nbt.getInteger("postava")==2) {nbt.setBoolean("mayfly", true);} else {nbt.setBoolean("mayfly", false);};
 	};
 	
 }

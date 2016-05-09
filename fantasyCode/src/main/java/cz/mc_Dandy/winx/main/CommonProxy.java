@@ -1,5 +1,7 @@
 package cz.mc_Dandy.winx.main;
 
+import cz.mc_Dandy.marmid.player.SeaWoman;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -12,7 +14,7 @@ public class CommonProxy {
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		proxy.init(e);
-		// MinecraftForge.EVENT_BUS.register(new SeaWoman());
+		 MinecraftForge.EVENT_BUS.register(new SeaWoman());
 	}
 
 	@EventHandler
