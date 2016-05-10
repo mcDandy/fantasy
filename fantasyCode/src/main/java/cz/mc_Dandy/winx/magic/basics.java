@@ -9,7 +9,7 @@ public class basics {
 	}
 	public Byte sila(NBTTagCompound nbt){
 		
-		sila=(byte) ((nbt.getInteger("level")+1)*10);
+		sila=(byte) (Math.sin((double)(nbt.getInteger("level")))*100);
 		
 		return sila;};
 }
