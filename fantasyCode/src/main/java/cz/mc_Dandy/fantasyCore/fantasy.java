@@ -40,7 +40,7 @@ public class fantasy {
 	public void preInit(FMLPreInitializationEvent e) {
 		ModItems.createItems();
 		ModBlocks.createBlocks();
-		MinecraftForge.EVENT_BUS.register(new flying()); 
+		//MinecraftForge.EVENT_BUS.register(new flying()); 
 
 	}
 }
