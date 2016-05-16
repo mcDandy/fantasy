@@ -5,8 +5,8 @@ import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
-/*public class flying {
-	@SubscribeEvent
+public class flying {
+/*	@SubscribeEvent
 	void plaierJoin(EntityJoinWorldEvent e){
 		CanFly(null);
 	}
