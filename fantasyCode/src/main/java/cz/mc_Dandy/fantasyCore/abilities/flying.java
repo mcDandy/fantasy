@@ -12,7 +12,11 @@ public class flying {
 		CanFly(null, null);
 	}
 	public void CanFly(NBTTagCompound nbt, EntityPlayer player){
-		if (nbt.getInteger("postava")==2) {player.capabilities.allowFlying = true;} else {player.capabilities.allowFlying = false;player.capabilities.isFlying = false;};
+		if (nbt.getInteger("postava")==2) {
+			player.capabilities.allowFlying = true;
+		} else {
+			player.capabilities.allowFlying = false;
+			player.capabilities.isFlying = false;};
 	};
 	
 }
