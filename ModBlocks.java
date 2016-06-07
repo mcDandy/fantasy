@@ -1,5 +1,4 @@
-package cz.mc_Dandy.marmid.blocks;
-
+package cz.mc_Dandy.winx.items.src.main.java.cz.mc_Dandy.marmid.blocks;
 import net.minecraft.block.Block;
 
 public final class ModBlocks {
