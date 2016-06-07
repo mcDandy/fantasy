@@ -17,6 +17,6 @@ public final class ItemRenderRegister {
 	}
 
 	public static void registerItemRenderer() {
-		//reg(ModItems.BlueGlowstoneDust);
+		reg(ModItems.BlueGlowstoneDust);
 	}
 }
