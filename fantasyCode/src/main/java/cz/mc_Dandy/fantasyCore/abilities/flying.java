@@ -9,7 +9,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class flying {
 	@SubscribeEvent
 	void plaierJoin(EntityJoinWorldEvent e){
-		CanFly(null, null);
+		
+		//CanFly(null, null);
 	}
 	public void CanFly(NBTTagCompound nbt, EntityPlayer player){
 		if (nbt.getInteger("postava")==2) {
