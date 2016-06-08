@@ -1,0 +1,43 @@
+[15:24:03] [Client thread/INFO]: Setting user: Player650
+[15:24:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:24:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
+[15:24:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:24:26] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[15:24:26] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:24:28] [Thread-9/INFO]: OpenAL initialized.
+[15:24:28] [Sound Library Loader/INFO]: Sound engine started
+[15:24:41] [Client thread/INFO]: Created: 16x16 textures-atlas
+[15:24:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fantasy mod, FMLFileResourcePack:Fantasy mod - marmid extension, FMLFileResourcePack:Fantasy mod - Winx (fiary) extension
+[15:24:44] [Client thread/INFO]: SoundSystem shutting down...
+[15:24:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:24:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:24:45] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[15:24:45] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:24:45] [Thread-11/INFO]: OpenAL initialized.
+[15:24:45] [Sound Library Loader/INFO]: Sound engine started
+[15:24:52] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:25:02] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[15:25:02] [Server thread/INFO]: Generating keypair
+[15:25:04] [Server thread/INFO]: Preparing start region for level 0
+[15:25:05] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.NullPointerException
+	at cz.mc_Dandy.fantasyCore.abilities.flying.CanFly(flying.java:15) ~[flying.class:?]
+	at cz.mc_Dandy.fantasyCore.abilities.flying.plaierJoin(flying.java:12) ~[flying.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_6_flying_plaierJoin_EntityJoinWorldEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140) ~[EventBus.class:?]
+	at net.minecraft.world.World.loadEntities(World.java:3375) ~[World.class:?]
+	at net.minecraft.world.chunk.Chunk.onChunkLoad(Chunk.java:1017) ~[Chunk.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46) ~[ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12) ~[ChunkIOProvider.class:?]
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:344) ~[AsynchronousExecutor.class:?]
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302) ~[AsynchronousExecutor.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12) ~[ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:133) ~[ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:108) ~[ChunkProviderServer.class:?]
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:343) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:113) ~[IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:130) ~[IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:500) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[15:25:05] [Server thread/ERROR]: This crash report has been saved to: C:\Users\danda\workspace\fantasy\fantasyCode\run\.\crash-reports\crash-2016-06-07_15.25.05-server.txt

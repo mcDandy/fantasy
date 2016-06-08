@@ -1,0 +1,49 @@
+#################################################
+         ForgeGradle 2.0-SNAPSHOT        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP 9.10               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:genSrgs SKIPPED
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:deobfMcSRG SKIPPED
+:getFernFlower SKIPPED
+:decompileMc SKIPPED
+:fixMcSources SKIPPED
+:applySourcePatches
+:remapMcSources SKIPPED
+:recompileMc SKIPPED
+:extractNatives SKIPPED
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 57/734   7%
+Current status: 129/734   17%
+Current status: 214/734   29%
+Current status: 303/734   41%
+Current status: 380/734   51%
+Current status: 444/734   60%
+Current status: 495/734   67%
+Current status: 565/734   76%
+Current status: 622/734   84%
+Current status: 697/734   94%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:setupDecompWorkspace
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 3.155 secs
