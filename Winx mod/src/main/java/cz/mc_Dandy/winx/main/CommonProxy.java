@@ -12,7 +12,7 @@ public class CommonProxy {
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		proxy.init(e);
-		 }
+	}
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent e) {

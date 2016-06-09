@@ -4,7 +4,6 @@ import net.minecraft.block.Block;
 
 public final class ModBlocks {
 
-
 	public static void createBlocks() {
 	}
 }
