@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>fantasy core</name>
+	<name>Winx mod</name>
 	<comment/>
-	<projects/>
+	<projects>
+		<project>fantasyCode</project>
+	</projects>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>

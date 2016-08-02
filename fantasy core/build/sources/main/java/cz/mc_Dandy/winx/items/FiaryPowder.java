@@ -1,11 +1,17 @@
 package cz.mc_Dandy.winx.items;
 
+
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
-import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.event.entity.player.PlayerUseItemEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class FiaryPowder extends Item {
+	public EntityPlayer player;
+	public NBTTagCompound ntb;
 	public FiaryPowder(String string) {
 		this.setCreativeTab(ModItems3.tabWinx);
 		this.setMaxStackSize(255);
@@ -13,9 +19,10 @@ public class FiaryPowder extends Item {
 		
 	}
 	@SubscribeEvent(priority = EventPriority.NORMAL)
-	void fiaryp_click(rightClick e) {
-
+	void fiaryp_click(PlayerUseItemEvent e) {
+		
+if (player.getCurrentEquippedItem()==new ItemStack(ModItems3.FiaryDust)){ntb.setInteger("postava", 2);}
 	
 	}
 }
-}
+

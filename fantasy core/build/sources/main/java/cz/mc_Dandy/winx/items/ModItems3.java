@@ -1,7 +1,6 @@
 package cz.mc_Dandy.winx.items;
 
 import cz.mc_Dandy.fantasyCore.items.ModItems;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
