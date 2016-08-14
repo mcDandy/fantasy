@@ -9,19 +9,17 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
 public class flying {
-	//public EntityPlayer player;
+	public EntityPlayer player;
+	public NBTTagCompound nbt;
 	@SubscribeEvent
 	void plaierJoin(EntityJoinWorldEvent e){
 		//player.addChatComponentMessage(IChatComponentText IChatComponent) new ChatComponentText("hrac je víla"). .
 		
 		//CanFly(null, null);
-	}
-	public void CanFly(NBTTagCompound nbt, EntityPlayer player){
-		if (nbt.getInteger("postava")==2) {
+			if (nbt.getInteger("postava")==2) {
 			player.capabilities.allowFlying = true;
 		} else {
 			player.capabilities.allowFlying = false;
 			player.capabilities.isFlying = false;};
 	};
-	
-}
+	}

@@ -1,0 +1,953 @@
+
+C:\Users\danda\workspace\fantasy\fantasy core>gradlew eclipse
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:getVersionJson
+:extractNatives
+:extractUserdev
+:getAssetIndex
+:getAssets
+Current status: 10/734   1%
+Current status: 22/734   2%
+Current status: 30/734   4%
+Current status: 38/734   5%
+Current status: 60/734   8%
+Current status: 92/734   12%
+Current status: 121/734   16%
+Current status: 133/734   18%
+Current status: 159/734   21%
+Current status: 178/734   24%
+Current status: 212/734   28%
+Current status: 221/734   30%
+Current status: 243/734   33%
+Current status: 272/734   37%
+Current status: 287/734   39%
+Current status: 302/734   41%
+Current status: 317/734   43%
+Current status: 333/734   45%
+Current status: 351/734   47%
+Current status: 375/734   51%
+Current status: 396/734   53%
+Current status: 419/734   57%
+Current status: 437/734   59%
+Current status: 447/734   60%
+Current status: 463/734   63%
+Current status: 483/734   65%
+Current status: 501/734   68%
+Current status: 513/734   69%
+Current status: 521/734   70%
+Current status: 529/734   72%
+Current status: 543/734   73%
+Current status: 551/734   75%
+Current status: 561/734   76%
+Current status: 566/734   77%
+Current status: 589/734   80%
+Current status: 595/734   81%
+Current status: 608/734   82%
+Current status: 616/734   83%
+Current status: 618/734   84%
+Current status: 623/734   84%
+Current status: 632/734   86%
+Current status: 639/734   87%
+Current status: 653/734   88%
+Current status: 657/734   89%
+Current status: 672/734   91%
+Current status: 683/734   93%
+Current status: 700/734   95%
+Current status: 722/734   98%
+Current status: 733/734   99%
+Current status: 733/734   99%
+Current status: 733/734   99%
+Current status: 733/734   99%
+Current status: 733/734   99%
+Current status: 733/734   99%
+Current status: 733/734   99%
+Current status: 733/734   99%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:9: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Strings;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:10: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Throwables;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:11: error: package com.google.gson does not exist
+[ant:javac] import com.google.gson.GsonBuilder;
+[ant:javac]                       ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:12: error: package com.mojang.authlib does not exist
+[ant:javac] import com.mojang.authlib.Agent;
+[ant:javac]                          ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:13: error: package com.mojang.authlib.exceptions does not exist
+[ant:javac] import com.mojang.authlib.exceptions.AuthenticationException;
+[ant:javac]                                     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:14: error: package com.mojang.authlib.properties does not exist
+[ant:javac] import com.mojang.authlib.properties.PropertyMap;
+[ant:javac]                                     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:15: error: package com.mojang.authlib.yggdrasil does not exist
+[ant:javac] import com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
+[ant:javac]                                    ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:16: error: package com.mojang.authlib.yggdrasil does not exist
+[ant:javac] import com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication;
+[ant:javac]                                    ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:27: error: package joptsimple does not exist
+[ant:javac] import joptsimple.NonOptionArgumentSpec;
+[ant:javac]                  ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:28: error: package joptsimple does not exist
+[ant:javac] import joptsimple.OptionParser;
+[ant:javac]                  ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:29: error: package joptsimple does not exist
+[ant:javac] import joptsimple.OptionSet;
+[ant:javac]                  ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:31: error: package org.apache.logging.log4j does not exist
+[ant:javac] import org.apache.logging.log4j.LogManager;
+[ant:javac]                                ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:32: error: package org.apache.logging.log4j does not exist
+[ant:javac] import org.apache.logging.log4j.Logger;
+[ant:javac]                                ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:34: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Strings;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:35: error: package com.google.common.collect does not exist
+[ant:javac] import com.google.common.collect.Lists;
+[ant:javac]                                 ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:36: error: package com.google.common.collect does not exist
+[ant:javac] import com.google.common.collect.Maps;
+[ant:javac]                                 ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:40: error: cannot find symbol
+[ant:javac]     protected static Logger LOGGER        = LogManager.getLogger("GradleStart");
+[ant:javac]                      ^
+[ant:javac]   symbol:   class Logger
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:36: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.IClassTransformer;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:37: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.LaunchClassLoader;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:39: error: package org.apache.logging.log4j does not exist
+[ant:javac] import org.apache.logging.log4j.Level;
+[ant:javac]                                ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:41: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Charsets;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:42: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Joiner;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:43: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Splitter;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:44: error: package com.google.common.base does not exist
+[ant:javac] import com.google.common.base.Strings;
+[ant:javac]                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:45: error: package com.google.common.collect does not exist
+[ant:javac] import com.google.common.collect.Maps;
+[ant:javac]                                 ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:46: error: package com.google.common.collect does not exist
+[ant:javac] import com.google.common.collect.Sets;
+[ant:javac]                                 ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:47: error: package com.google.common.io does not exist
+[ant:javac] import com.google.common.io.Files;
+[ant:javac]                            ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:147: error: cannot find symbol
+[ant:javac]     public static final class AccessTransformerTransformer implements IClassTransformer
+[ant:javac]                                                                       ^
+[ant:javac]   symbol:   class IClassTransformer
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:155: error: cannot find symbol
+[ant:javac]         private void doStuff(LaunchClassLoader classloader)
+[ant:javac]                              ^
+[ant:javac]   symbol:   class LaunchClassLoader
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:25: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.ITweaker;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:26: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.LaunchClassLoader;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:28: error: cannot find symbol
+[ant:javac] public class AccessTransformerTweaker implements ITweaker
+[ant:javac]                                                  ^
+[ant:javac]   symbol: class ITweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:31: error: cannot find symbol
+[ant:javac]     public void injectIntoClassLoader(LaunchClassLoader classLoader)
+[ant:javac]                                       ^
+[ant:javac]   symbol:   class LaunchClassLoader
+[ant:javac]   location: class AccessTransformerTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:28: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.ITweaker;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:29: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.Launch;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:30: error: package net.minecraft.launchwrapper does not exist
+[ant:javac] import net.minecraft.launchwrapper.LaunchClassLoader;
+[ant:javac]                                   ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:33: error: package org.apache.logging.log4j does not exist
+[ant:javac] import org.apache.logging.log4j.Level;
+[ant:javac]                                ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:34: error: package org.apache.logging.log4j does not exist
+[ant:javac] import org.apache.logging.log4j.LogManager;
+[ant:javac]                                ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:35: error: package org.apache.logging.log4j does not exist
+[ant:javac] import org.apache.logging.log4j.Logger;
+[ant:javac]                                ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:37: error: cannot find symbol
+[ant:javac] public class CoremodTweaker implements ITweaker
+[ant:javac]                                        ^
+[ant:javac]   symbol: class ITweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:39: error: cannot find symbol
+[ant:javac]     protected static final Logger LOGGER             = LogManager.getLogger("GradleStart");
+[ant:javac]                            ^
+[ant:javac]   symbol:   class Logger
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:45: error: cannot find symbol
+[ant:javac]     public void injectIntoClassLoader(LaunchClassLoader classLoader)
+[ant:javac]                                       ^
+[ant:javac]   symbol:   class LaunchClassLoader
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:40: error: cannot find symbol
+[ant:javac]     protected static Logger LOGGER        = LogManager.getLogger("GradleStart");
+[ant:javac]                                             ^
+[ant:javac]   symbol:   variable LogManager
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:42: error: cannot find symbol
+[ant:javac]     Map<String, String>     argMap        = Maps.newHashMap();
+[ant:javac]                                             ^
+[ant:javac]   symbol:   variable Maps
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:43: error: cannot find symbol
+[ant:javac]     List<String>            extras        = Lists.newArrayList();
+[ant:javac]                                             ^
+[ant:javac]   symbol:   variable Lists
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:107: error: cannot find symbol
+[ant:javac]             if (!Strings.isNullOrEmpty(val))
+[ant:javac]                  ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:115: error: cannot find symbol
+[ant:javac]         if (!Strings.isNullOrEmpty(getTweakClass()))
+[ant:javac]              ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:153: error: cannot find symbol
+[ant:javac]         final OptionParser parser = new OptionParser();
+[ant:javac]               ^
+[ant:javac]   symbol:   class OptionParser
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:153: error: cannot find symbol
+[ant:javac]         final OptionParser parser = new OptionParser();
+[ant:javac]                                         ^
+[ant:javac]   symbol:   class OptionParser
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:161: error: cannot find symbol
+[ant:javac]         final NonOptionArgumentSpec<String> nonOption = parser.nonOptions();
+[ant:javac]               ^
+[ant:javac]   symbol:   class NonOptionArgumentSpec
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:163: error: cannot find symbol
+[ant:javac]         final OptionSet options = parser.parse(args);
+[ant:javac]               ^
+[ant:javac]   symbol:   class OptionSet
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleStartCommon.java:175: error: cannot find symbol
+[ant:javac]         extras = Lists.newArrayList(nonOption.values(options));
+[ant:javac]                  ^
+[ant:javac]   symbol:   variable Lists
+[ant:javac]   location: class GradleStartCommon
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:56: error: cannot find symbol
+[ant:javac]         if (!Strings.isNullOrEmpty(argMap.get("password")))
+[ant:javac]              ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:62: error: cannot find symbol
+[ant:javac]         if (!Strings.isNullOrEmpty(argMap.get("assetIndex")))
+[ant:javac]              ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:73: error: cannot find symbol
+[ant:javac]         if (Strings.isNullOrEmpty(paths))
+[ant:javac]             ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:92: error: cannot find symbol
+[ant:javac]         YggdrasilUserAuthentication auth = (YggdrasilUserAuthentication) new YggdrasilAuthenticationService(Proxy.NO_PROXY, "1").createUserAuthentication(Agent.MINECRAFT);
+[ant:javac]         ^
+[ant:javac]   symbol:   class YggdrasilUserAuthentication
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:92: error: cannot find symbol
+[ant:javac]         YggdrasilUserAuthentication auth = (YggdrasilUserAuthentication) new YggdrasilAuthenticationService(Proxy.NO_PROXY, "1").createUserAuthentication(Agent.MINECRAFT);
+[ant:javac]                                             ^
+[ant:javac]   symbol:   class YggdrasilUserAuthentication
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:92: error: cannot find symbol
+[ant:javac]         YggdrasilUserAuthentication auth = (YggdrasilUserAuthentication) new YggdrasilAuthenticationService(Proxy.NO_PROXY, "1").createUserAuthentication(Agent.MINECRAFT);
+[ant:javac]                                                                                                                                                           ^
+[ant:javac]   symbol:   variable Agent
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:92: error: cannot find symbol
+[ant:javac]         YggdrasilUserAuthentication auth = (YggdrasilUserAuthentication) new YggdrasilAuthenticationService(Proxy.NO_PROXY, "1").createUserAuthentication(Agent.MINECRAFT);
+[ant:javac]                                                                              ^
+[ant:javac]   symbol:   class YggdrasilAuthenticationService
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:100: error: cannot find symbol
+[ant:javac]         catch (AuthenticationException e)
+[ant:javac]                ^
+[ant:javac]   symbol:   class AuthenticationException
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:103: error: cannot find symbol
+[ant:javac]             Throwables.propagate(e);
+[ant:javac]             ^
+[ant:javac]   symbol:   variable Throwables
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:114: error: cannot find symbol
+[ant:javac]         argMap.put("userProperties", new GsonBuilder().registerTypeAdapter(PropertyMap.class, new PropertyMap.Serializer()).create().toJson(auth.getUserProperties()));
+[ant:javac]                                                                            ^
+[ant:javac]   symbol:   class PropertyMap
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:114: error: package PropertyMap does not exist
+[ant:javac]         argMap.put("userProperties", new GsonBuilder().registerTypeAdapter(PropertyMap.class, new PropertyMap.Serializer()).create().toJson(auth.getUserProperties()));
+[ant:javac]                                                                                                              ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\GradleStart.java:114: error: cannot find symbol
+[ant:javac]         argMap.put("userProperties", new GsonBuilder().registerTypeAdapter(PropertyMap.class, new PropertyMap.Serializer()).create().toJson(auth.getUserProperties()));
+[ant:javac]                                          ^
+[ant:javac]   symbol:   class GsonBuilder
+[ant:javac]   location: class GradleStart
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:62: error: cannot find symbol
+[ant:javac]     public static final Map<String, File> coreMap        = Maps.newHashMap();
+[ant:javac]                                                            ^
+[ant:javac]   symbol:   variable Maps
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:121: error: cannot find symbol
+[ant:javac]                 if (!Strings.isNullOrEmpty(clazz))
+[ant:javac]                      ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:130: error: cannot find symbol
+[ant:javac]         Set<String> coremodsSet = Sets.newHashSet();
+[ant:javac]                                   ^
+[ant:javac]   symbol:   variable Sets
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:131: error: cannot find symbol
+[ant:javac]         if (!Strings.isNullOrEmpty(System.getProperty(COREMOD_VAR)))
+[ant:javac]              ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:132: error: cannot find symbol
+[ant:javac]             coremodsSet.addAll(Splitter.on(',').splitToList(System.getProperty(COREMOD_VAR)));
+[ant:javac]                                ^
+[ant:javac]   symbol:   variable Splitter
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:134: error: cannot find symbol
+[ant:javac]         System.setProperty(COREMOD_VAR, Joiner.on(',').join(coremodsSet));
+[ant:javac]                                         ^
+[ant:javac]   symbol:   variable Joiner
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:137: error: cannot find symbol
+[ant:javac]         if (!Strings.isNullOrEmpty(common.getTweakClass()))
+[ant:javac]              ^
+[ant:javac]   symbol:   variable Strings
+[ant:javac]   location: class GradleForgeHacks
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:151: error: cannot find symbol
+[ant:javac]             doStuff((LaunchClassLoader) getClass().getClassLoader());
+[ant:javac]                      ^
+[ant:javac]   symbol:   class LaunchClassLoader
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:158: error: cannot find symbol
+[ant:javac]             Class<? extends IClassTransformer> clazz = null;
+[ant:javac]                             ^
+[ant:javac]   symbol:   class IClassTransformer
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:159: error: cannot find symbol
+[ant:javac]             IClassTransformer instance = null;
+[ant:javac]             ^
+[ant:javac]   symbol:   class IClassTransformer
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:162: error: cannot find symbol
+[ant:javac]             for (IClassTransformer transformer : classloader.getTransformers())
+[ant:javac]                  ^
+[ant:javac]   symbol:   class IClassTransformer
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:166: error: incompatible types: getClass cannot be converted to Class<? extends IClassTransformer>
+[ant:javac]                     clazz = transformer.getClass();
+[ant:javac]                                                 ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:174: error: cannot find symbol
+[ant:javac]                 GradleStartCommon.LOGGER.log(Level.ERROR, "ModAccessTransformer was somehow not found.");
+[ant:javac]                                              ^
+[ant:javac]   symbol:   variable Level
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:186: error: package com.google.common.collect does not exist
+[ant:javac]                 modifiers = ((com.google.common.collect.Multimap) f.get(instance)).values();
+[ant:javac]                                                        ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:190: error: cannot find symbol
+[ant:javac]                 GradleStartCommon.LOGGER.log(Level.ERROR, "AccessTransformer.modifiers field was somehow not found...");
+[ant:javac]                                              ^
+[ant:javac]   symbol:   variable Level
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:216: error: cannot find symbol
+[ant:javac]                 GradleStartCommon.LOGGER.log(Level.ERROR, "AccessTransformer.Modifier.name field was somehow not found...");
+[ant:javac]                                              ^
+[ant:javac]   symbol:   variable Level
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:221: error: cannot find symbol
+[ant:javac]             Map<String, String> nameMap = Maps.newHashMap();
+[ant:javac]                                           ^
+[ant:javac]   symbol:   variable Maps
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:230: error: cannot find symbol
+[ant:javac]                 GradleStartCommon.LOGGER.log(Level.ERROR, "Could not load CSV files!");
+[ant:javac]                                              ^
+[ant:javac]   symbol:   variable Level
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:235: error: cannot find symbol
+[ant:javac]             GradleStartCommon.LOGGER.log(Level.INFO, "Remapping AccessTransformer rules...");
+[ant:javac]                                          ^
+[ant:javac]   symbol:   variable Level
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:259: error: cannot find symbol
+[ant:javac]             GradleStartCommon.LOGGER.log(Level.DEBUG, "Reading CSV file: {}", file);
+[ant:javac]                                          ^
+[ant:javac]   symbol:   variable Level
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:260: error: cannot find symbol
+[ant:javac]             Splitter split = Splitter.on(',').trimResults().limit(3);
+[ant:javac]             ^
+[ant:javac]   symbol:   class Splitter
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:260: error: cannot find symbol
+[ant:javac]             Splitter split = Splitter.on(',').trimResults().limit(3);
+[ant:javac]                              ^
+[ant:javac]   symbol:   variable Splitter
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:261: error: cannot find symbol
+[ant:javac]             for (String line : Files.readLines(file, Charsets.UTF_8))
+[ant:javac]                                                      ^
+[ant:javac]   symbol:   variable Charsets
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:261: error: cannot find symbol
+[ant:javac]             for (String line : Files.readLines(file, Charsets.UTF_8))
+[ant:javac]                                ^
+[ant:javac]   symbol:   variable Files
+[ant:javac]   location: class AccessTransformerTransformer
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\GradleForgeHacks.java:271: error: method does not override or implement a method from a supertype
+[ant:javac]         @Override
+[ant:javac]         ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:30: error: method does not override or implement a method from a supertype
+[ant:javac]     @Override
+[ant:javac]     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:38: error: method does not override or implement a method from a supertype
+[ant:javac]     @Override public void acceptOptions(List<String> args, File gameDir, File assetsDir, String profile) { }
+[ant:javac]     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:39: error: method does not override or implement a method from a supertype
+[ant:javac]     @Override public String getLaunchTarget() { return null; }
+[ant:javac]     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\AccessTransformerTweaker.java:40: error: method does not override or implement a method from a supertype
+[ant:javac]     @Override public String[] getLaunchArguments() { return new String[0]; }
+[ant:javac]     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:39: error: cannot find symbol
+[ant:javac]     protected static final Logger LOGGER             = LogManager.getLogger("GradleStart");
+[ant:javac]                                                        ^
+[ant:javac]   symbol:   variable LogManager
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:43: error: method does not override or implement a method from a supertype
+[ant:javac]     @Override
+[ant:javac]     ^
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:53: error: cannot find symbol
+[ant:javac]             Class<ITweaker> clazz = (Class<ITweaker>) Class.forName("net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper", true, classLoader);
+[ant:javac]                   ^
+[ant:javac]   symbol:   class ITweaker
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:53: error: cannot find symbol
+[ant:javac]             Class<ITweaker> clazz = (Class<ITweaker>) Class.forName("net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper", true, classLoader);
+[ant:javac]                                            ^
+[ant:javac]   symbol:   class ITweaker
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:54: error: cannot find symbol
+[ant:javac]             Constructor<ITweaker> construct = (Constructor<ITweaker>) clazz.getConstructors()[0];
+[ant:javac]                         ^
+[ant:javac]   symbol:   class ITweaker
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:54: error: cannot find symbol
+[ant:javac]             Constructor<ITweaker> construct = (Constructor<ITweaker>) clazz.getConstructors()[0];
+[ant:javac]                                                            ^
+[ant:javac]   symbol:   class ITweaker
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] C:\Users\danda\workspace\fantasy\fantasy core\build\tmp\makeStart\extracted\net\minecraftforge\gradle\tweakers\CoremodTweaker.java:65: error: cannot find symbol
+[ant:javac]             List<ITweaker> oldList = (List<ITweaker>) coreModList.get(null);
+[ant:javac]                  ^
+[ant:javac]   symbol:   class ITweaker
+[ant:javac]   location: class CoremodTweaker
+[ant:javac] 100 errors
+[ant:javac] 1 warning
+:makeStart FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':makeStart'.
+> Compile failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2 mins 7.922 secs
+
+C:\Users\danda\workspace\fantasy\fantasy core>gradlew eclipse
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 59/734   8%
+Current status: 119/734   16%
+Current status: 170/734   23%
+Current status: 256/734   34%
+Current status: 320/734   43%
+Current status: 378/734   51%
+Current status: 437/734   59%
+Current status: 495/734   67%
+Current status: 505/734   68%
+Current status: 538/734   73%
+Current status: 576/734   78%
+Current status: 629/734   85%
+Current status: 711/734   96%
+Current status: 728/734   99%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:makeEclipseCleanRunClient
+:makeEclipseCleanRunServer
+:eclipse
+
+BUILD SUCCESSFUL
+
+Total time: 59.507 secs
+C:\Users\danda\workspace\fantasy\fantasy core>gradlew setup decomp workspace¨
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'setup' is ambiguous in root project 'fantasy core'. Candidates are: 'setupCiWorkspace', 'setupDecompWorkspace', 'setupDevWorkspace'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 22.036 secs
+
+C:\Users\danda\workspace\fantasy\fantasy core>gradlew setupecomp workspace
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'setupecomp' not found in root project 'fantasy core'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 11.226 secs
+
+C:\Users\danda\workspace\fantasy\fantasy core>
+C:\Users\danda\workspace\fantasy\fantasy core>gradlew setupDecompWorkspace
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:extractDependencyATs SKIPPED
+:extractMcpData
+:extractMcpMappings
+:genSrgs
+:downloadClient
+:downloadServer
+:splitServerJar
+:mergeJars
+:deobfMcSRG
+Applying SpecialSource...
+Applying Exceptor...
+:getFernFlower FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':getFernFlower'.
+> java.net.ConnectException: Connection timed out: connect
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 3 mins 42.925 secs
+
+C:\Users\danda\workspace\fantasy\fantasy core>gradlew eclipse
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 14/734   1%
+Current status: 40/734   5%
+Current status: 73/734   9%
+Current status: 117/734   15%
+Current status: 136/734   18%
+Current status: 178/734   24%
+Current status: 226/734   30%
+Current status: 273/734   37%
+Current status: 313/734   42%
+Current status: 343/734   46%
+Current status: 390/734   53%
+Current status: 440/734   59%
+Current status: 472/734   64%
+Current status: 497/734   67%
+Current status: 526/734   71%
+Current status: 547/734   74%
+Current status: 581/734   79%
+Current status: 608/734   82%
+Current status: 639/734   87%
+Current status: 676/734   92%
+Current status: 705/734   96%
+Current status: 731/734   99%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:makeEclipseCleanRunClient
+:makeEclipseCleanRunServer
+:eclipse
+
+BUILD SUCCESSFUL
+
+Total time: 57.419 secs
+C:\Users\danda\workspace\fantasy\fantasy core>cd ..
+
+C:\Users\danda\workspace\fantasy>cd
+C:\Users\danda\workspace\fantasy
+
+C:\Users\danda\workspace\fantasy>dir
+ Volume in drive C has no label.
+ Volume Serial Number is A299-9D40
+
+ Directory of C:\Users\danda\workspace\fantasy
+
+09. 06. 2016  08:04    <DIR>          .
+09. 06. 2016  08:04    <DIR>          ..
+12. 05. 2016  13:44               211 .project
+02. 08. 2016  10:53    <DIR>          fantasy core
+02. 08. 2016  11:07    <DIR>          Marmid mod
+12. 05. 2016  13:35                35 README.md
+02. 08. 2016  11:07    <DIR>          Winx mod
+               2 File(s)            246 bytes
+               5 Dir(s)  112 150 126 592 bytes free
+
+C:\Users\danda\workspace\fantasy>cd Marmid mod
+
+C:\Users\danda\workspace\fantasy\Marmid mod>gradlew setupDecompWorkspace
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:genSrgs SKIPPED
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:deobfMcSRG SKIPPED
+:getFernFlower
+:decompileMc
+:fixMcSources
+:applySourcePatches
+:remapMcSources
+:recompileMc
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] Note: Some input files use or override a deprecated API.
+[ant:javac] Note: Recompile with -Xlint:deprecation for details.
+[ant:javac] Note: Some input files use unchecked or unsafe operations.
+[ant:javac] Note: Recompile with -Xlint:unchecked for details.
+[ant:javac] 1 warning
+:extractNatives SKIPPED
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 28/734   3%
+Current status: 56/734   7%
+Current status: 81/734   11%
+Current status: 121/734   16%
+Current status: 141/734   19%
+Current status: 178/734   24%
+Current status: 216/734   29%
+Current status: 268/734   36%
+Current status: 300/734   40%
+Current status: 335/734   45%
+Current status: 360/734   49%
+Current status: 394/734   53%
+Current status: 423/734   57%
+Current status: 440/734   59%
+Current status: 471/734   64%
+Current status: 497/734   67%
+Current status: 511/734   69%
+Current status: 535/734   72%
+Current status: 558/734   76%
+Current status: 575/734   78%
+Current status: 598/734   81%
+Current status: 648/734   88%
+Current status: 683/734   93%
+Current status: 710/734   96%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:setupDecompWorkspace
+
+BUILD SUCCESSFUL
+
+Total time: 13 mins 51.795 secs
+C:\Users\danda\workspace\fantasy\Marmid mod>gradlew eclipse
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 46/734   6%
+Current status: 99/734   13%
+Current status: 135/734   18%
+Current status: 156/734   21%
+Current status: 265/734   36%
+Current status: 309/734   42%
+Current status: 345/734   47%
+Current status: 424/734   57%
+Current status: 478/734   65%
+Current status: 509/734   69%
+Current status: 543/734   73%
+Current status: 587/734   79%
+Current status: 618/734   84%
+Current status: 646/734   88%
+Current status: 693/734   94%
+Current status: 722/734   98%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:makeEclipseCleanRunClient
+:makeEclipseCleanRunServer
+:eclipse
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 9.189 secs
+C:\Users\danda\workspace\fantasy\Marmid mod>cd ..
+
+C:\Users\danda\workspace\fantasy>dir
+ Volume in drive C has no label.
+ Volume Serial Number is A299-9D40
+
+ Directory of C:\Users\danda\workspace\fantasy
+
+09. 06. 2016  08:04    <DIR>          .
+09. 06. 2016  08:04    <DIR>          ..
+12. 05. 2016  13:44               211 .project
+02. 08. 2016  10:53    <DIR>          fantasy core
+02. 08. 2016  11:07    <DIR>          Marmid mod
+12. 05. 2016  13:35                35 README.md
+02. 08. 2016  11:07    <DIR>          Winx mod
+               2 File(s)            246 bytes
+               5 Dir(s)  112 072 835 072 bytes free
+
+C:\Users\danda\workspace\fantasy>cd Winx mod
+
+C:\Users\danda\workspace\fantasy\Winx mod>gradlew setupDecompWorkspace
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:genSrgs SKIPPED
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:deobfMcSRG SKIPPED
+:getFernFlower SKIPPED
+:decompileMc SKIPPED
+:fixMcSources SKIPPED
+:applySourcePatches SKIPPED
+:remapMcSources SKIPPED
+:recompileMc SKIPPED
+:extractNatives SKIPPED
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 61/734   8%
+Current status: 124/734   16%
+Current status: 157/734   21%
+Current status: 228/734   31%
+Current status: 295/734   40%
+Current status: 343/734   46%
+Current status: 378/734   51%
+Current status: 402/734   54%
+Current status: 470/734   64%
+Current status: 506/734   68%
+Current status: 545/734   74%
+Current status: 588/734   80%
+Current status: 628/734   85%
+Current status: 695/734   94%
+Current status: 732/734   99%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:setupDecompWorkspace
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 29.87 secs
+C:\Users\danda\workspace\fantasy\Winx mod>gradlew eclipse
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 39/734   5%
+Current status: 86/734   11%
+Current status: 133/734   18%
+Current status: 173/734   23%
+Current status: 251/734   34%
+Current status: 304/734   41%
+Current status: 346/734   47%
+Current status: 402/734   54%
+Current status: 464/734   63%
+Current status: 492/734   67%
+Current status: 523/734   71%
+Current status: 548/734   74%
+Current status: 588/734   80%
+Current status: 613/734   83%
+Current status: 647/734   88%
+Current status: 707/734   96%
+Current status: 728/734   99%
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:makeEclipseCleanRunClient
+:makeEclipseCleanRunServer
+:eclipse
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 6.549 secs
+C:\Users\danda\workspace\fantasy\Winx mod>cd
