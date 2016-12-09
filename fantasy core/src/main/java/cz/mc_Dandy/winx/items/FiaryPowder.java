@@ -23,7 +23,7 @@ public class FiaryPowder extends Item {
 	void fiaryp_click(PlayerUseItemEvent e) {
 
 		if (player.getCurrentEquippedItem() == new ItemStack(ModItems3.FiaryDust)) {
-			ntb.setInteger("postava", 2);
+			player.getEntityData().setByte("postava", (byte)1);
 		}
 
 	}

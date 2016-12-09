@@ -38,6 +38,6 @@ public class Winx {
 	public void preInit(FMLPreInitializationEvent e) {
 		ModItems3.createItems();
 		// ModBlocks.createBlocks();
-		MinecraftForge.EVENT_BUS.register(new FiaryPowder(null)); 
+		MinecraftForge.EVENT_BUS.register(new FiaryPowder(null));
 	}
 }

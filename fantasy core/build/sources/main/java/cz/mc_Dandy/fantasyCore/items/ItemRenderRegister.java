@@ -13,7 +13,7 @@ public final class ItemRenderRegister {
 		RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
 
 		renderItem.getItemModelMesher().register(item, 0,
-				new ModelResourceLocation(modid + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+				new ModelResourceLocation(modid + "/" + item.getUnlocalizedName().substring(item.getUnlocalizedName().indexOf(".") + 1), "inventory"));
 	}
 
 	// ==========================================================================
@@ -22,5 +22,6 @@ public final class ItemRenderRegister {
 
 	public static void registerItemRenderer() {
 		reg(ModItems.BlueGlowstoneDust, fantasy.MODID);
+		reg(ModItems.Magic_Powder, fantasy.MODID);
 	}
 }

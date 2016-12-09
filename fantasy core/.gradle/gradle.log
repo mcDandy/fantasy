@@ -1,60 +1,9 @@
-#################################################
-         ForgeGradle 2.0-SNAPSHOT        
-  https://github.com/MinecraftForge/ForgeGradle  
-#################################################
-               Powered by MCP 9.10               
-             http://modcoderpack.com             
-         by: Searge, ProfMobius, Fesh0r,         
-         R4wk, ZeuX, IngisKahn, bspkrs           
-#################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:eclipseClasspath
-:eclipseJdt
-:eclipseProject
-:getVersionJson
-:extractNatives SKIPPED
-:extractUserdev UP-TO-DATE
-:getAssetIndex UP-TO-DATE
-:getAssets
-Current status: 12/734   1%
-Current status: 30/734   4%
-Current status: 44/734   5%
-Current status: 63/734   8%
-Current status: 82/734   11%
-Current status: 109/734   14%
-Current status: 130/734   17%
-Current status: 144/734   19%
-Current status: 177/734   24%
-Current status: 211/734   28%
-Current status: 246/734   33%
-Current status: 277/734   37%
-Current status: 309/734   42%
-Current status: 332/734   45%
-Current status: 367/734   50%
-Current status: 396/734   53%
-Current status: 427/734   58%
-Current status: 448/734   61%
-Current status: 471/734   64%
-Current status: 487/734   66%
-Current status: 497/734   67%
-Current status: 518/734   70%
-Current status: 538/734   73%
-Current status: 562/734   76%
-Current status: 585/734   79%
-Current status: 603/734   82%
-Current status: 626/734   85%
-Current status: 664/734   90%
-Current status: 691/734   94%
-Current status: 710/734   96%
-Current status: 732/734   99%
-:makeStart
-[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-[ant:javac] 1 warning
-:makeEclipseCleanRunClient
-:makeEclipseCleanRunServer
-:eclipse
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
 
 BUILD SUCCESSFUL
 
-Total time: 2 mins 6.201 secs
+Total time: 34.74 secs

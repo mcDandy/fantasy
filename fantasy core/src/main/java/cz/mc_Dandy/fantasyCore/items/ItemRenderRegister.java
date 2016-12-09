@@ -13,7 +13,7 @@ public final class ItemRenderRegister {
 		RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
 
 		renderItem.getItemModelMesher().register(item, 0,
-				new ModelResourceLocation(modid + "/" + item.getUnlocalizedName().substring(item.getUnlocalizedName().indexOf(".") + 1), "inventory"));
+				new ModelResourceLocation(modid + ":" + item.getUnlocalizedName().substring(item.getUnlocalizedName().indexOf(".") + 1), "inventory"));
 	}
 
 	// ==========================================================================
